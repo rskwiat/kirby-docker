@@ -1,0 +1,11 @@
+title: Default Page
+preset: page
+fields:
+  text:
+    label: Text
+    type: textarea
+    size: large
+  welcome:
+    label: Welcome
+    type: textarea
+    size: large

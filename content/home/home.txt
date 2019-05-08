@@ -1,0 +1,17 @@
+Title: Home
+
+----
+
+Text: This is the home page and all the data
+
+----
+
+Welcome: WELCOME!
+
+----
+
+Text3: asdfasdf
+
+----
+
+Content: This should also come up if I output the content???
