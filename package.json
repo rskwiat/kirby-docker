@@ -1,0 +1,41 @@
+{
+  "name": "kirby-docker",
+  "version": "1.0.0",
+  "description": "Kirby is a file-based CMS. Easy to setup. Easy to use. Flexible as hell.",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf assets",
+    "build:sass": "NODE_ENV=production webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rskwiat/kirby-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rskwiat/kirby-docker/issues"
+  },
+  "homepage": "https://github.com/rskwiat/kirby-docker#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "precss": "^4.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "rimraf": "^2.6.3"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 5%",
+    "maintained node versions",
+    "not dead"
+  ]
+}
